@@ -1,0 +1,88 @@
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "Outfit";
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  padding: 2rem;
+}
+
+.qr-card {
+  background-color: white;
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.qr-card__body {
+  padding: 0.25rem;
+}
+
+img {
+  border-radius: 0.75rem;
+}
+
+h3 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 600px) {
+  .qr-card {
+    max-width: 20rem;
+  }
+  .qr-card__body {
+    padding: 0.5rem;
+  }
+}
